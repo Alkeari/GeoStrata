@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "geostrata:cobbled_stones"
+  },
+  "result": "minecraft:cobblestone_slab",
+  "count": 2
+}

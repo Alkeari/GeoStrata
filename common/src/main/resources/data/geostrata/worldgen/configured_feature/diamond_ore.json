@@ -1,0 +1,495 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "discard_chance_on_air_exposure": 0.0,
+    "size": 8,
+    "targets": [
+      {
+        "state": {
+          "Name": "geostrata:andesite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:andesite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:basalt_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:basalt"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:diorite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:diorite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:granite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:granite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:rhyolite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:rhyolite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:pegmatite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:pegmatite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:diabase_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:diabase"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:gabbro_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:gabbro"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:peridotite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:peridotite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:basaltic_glass_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:basaltic_glass"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:scoria_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:scoria"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:tuff_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:tuff"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:slate_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:slate"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:schist_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:schist"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:gneiss_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:gneiss"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:phyllite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:phyllite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:amphibolite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:amphibolite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:hornfels_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:hornfels"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:quartzite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:quartzite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:novaculite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:novaculite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:shale_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:shale"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:conglomerate_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:conglomerate"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:dolomite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:dolomite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:limestone_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:limestone"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:marble_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:marble"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:siltstone_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:siltstone"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:rock_salt_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:rock_salt"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_andesite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_andesite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_basalt_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_basalt"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_diorite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_diorite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_granite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_granite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_rhyolite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_rhyolite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_pegmatite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_pegmatite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_diabase_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_diabase"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_gabbro_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_gabbro"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_peridotite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_peridotite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_basaltic_glass_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_basaltic_glass"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_scoria_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_scoria"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_tuff_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_tuff"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_slate_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_slate"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_schist_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_schist"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_gneiss_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_gneiss"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_phyllite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_phyllite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_amphibolite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_amphibolite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_hornfels_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_hornfels"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_quartzite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_quartzite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_novaculite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_novaculite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_shale_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_shale"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_conglomerate_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_conglomerate"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_dolomite_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_dolomite"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_limestone_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_limestone"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_marble_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_marble"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_siltstone_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_siltstone"
+        }
+      },
+      {
+        "state": {
+          "Name": "geostrata:deepslate_rock_salt_diamond_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "geostrata:deepslate_rock_salt"
+        }
+      }
+    ]
+  }
+}

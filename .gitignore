@@ -1,0 +1,31 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+.claude
+CLAUDE.md
+/Mineralogy Source Files/
+/Fabric Example Mod/
+/Forge Example Mod/
+/docs/
+/*/src/generated/
+/Stone Textures/
