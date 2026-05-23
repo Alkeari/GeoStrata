@@ -7,6 +7,12 @@ architectury {
     fabric()
 }
 
+idea {
+    module {
+        name = 'GeoStrata.fabric'
+    }
+}
+
 configurations {
     common
     shadowCommon

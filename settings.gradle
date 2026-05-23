@@ -7,7 +7,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'geostrata'
+rootProject.name = 'GeoStrata'
 
 include 'common'
 include 'fabric'

@@ -7,6 +7,12 @@ architectury {
     forge()
 }
 
+idea {
+    module {
+        name = 'GeoStrata.forge'
+    }
+}
+
 sourceSets {
     main {
         java {

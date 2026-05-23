@@ -2,6 +2,12 @@ architectury {
     common(rootProject.enabled_platforms.split(','))
 }
 
+idea {
+    module {
+        name = 'GeoStrata.common'
+    }
+}
+
 sourceSets {
     main {
         resources {
