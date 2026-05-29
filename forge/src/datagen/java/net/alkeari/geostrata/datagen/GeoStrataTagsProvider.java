@@ -8,7 +8,9 @@ import net.alkeari.geostrata.ore.OreTypes;
 import net.alkeari.geostrata.stone.StoneTypes;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -19,6 +21,11 @@ import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
 public class GeoStrataTagsProvider extends BlockTagsProvider {
+
+    private static final TagKey<Block> FORGE_COBBLESTONE =
+        BlockTags.create(new ResourceLocation("forge", "cobblestone"));
+    private static final TagKey<Block> FORGE_STONE =
+        BlockTags.create(new ResourceLocation("forge", "stone"));
 
     public GeoStrataTagsProvider(PackOutput output,
             CompletableFuture<HolderLookup.Provider> lookup, ExistingFileHelper efh) {
@@ -32,6 +39,12 @@ public class GeoStrataTagsProvider extends BlockTagsProvider {
             .toArray(Block[]::new);
         tag(BlockTags.STONE_ORE_REPLACEABLES).add(baseBlocks);
         tag(BlockTags.BASE_STONE_OVERWORLD).add(baseBlocks);
+        tag(FORGE_STONE).add(baseBlocks);
+
+        Block[] cobbledBlocks = StoneTypes.ALL.stream()
+            .map(t -> GeoStrataBlocks.COBBLED.get(t.name()).get())
+            .toArray(Block[]::new);
+        tag(FORGE_COBBLESTONE).add(cobbledBlocks);
 
         Block[] deepslateBlocks = StoneTypes.ALL.stream()
             .map(t -> GeoStrataBlocks.DEEPSLATE.get(t.name()).get())
