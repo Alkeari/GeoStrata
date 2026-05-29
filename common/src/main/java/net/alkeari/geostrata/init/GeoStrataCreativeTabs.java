@@ -26,10 +26,10 @@ public final class GeoStrataCreativeTabs {
 
     public static final RegistrySupplier<CreativeModeTab> GEOSTRATA_TAB = CREATIVE_TABS.register(
         GeoStrata.MOD_ID,
-        () -> CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0)
-            .title(Component.translatable("itemGroup." + GeoStrata.MOD_ID + "." + GeoStrata.MOD_ID))
-            .icon(() -> new ItemStack(blockItem(GeoStrataBlocks.BASE.get("granite"))))
-            .build()
+        () -> CreativeTabRegistry.create(
+            Component.translatable("itemGroup." + GeoStrata.MOD_ID + "." + GeoStrata.MOD_ID),
+            () -> new ItemStack(blockItem(GeoStrataBlocks.BASE.get("granite")))
+        )
     );
 
     public static void init() {

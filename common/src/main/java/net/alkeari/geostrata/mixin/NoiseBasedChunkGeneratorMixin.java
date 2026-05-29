@@ -25,7 +25,7 @@ public class NoiseBasedChunkGeneratorMixin {
     private void geostrata_replaceStone(WorldGenRegion region, StructureManager structures,
             RandomState randomState, ChunkAccess chunk, CallbackInfo ci) {
         long seed = randomState.getOrCreateRandomFactory(
-            new ResourceLocation("geostrata", "province_seed")).at(0, 0, 0).nextLong();
+            ResourceLocation.fromNamespaceAndPath("geostrata", "province_seed")).at(0, 0, 0).nextLong();
         GeoStrataStoneReplacer.replaceStone(chunk, seed);
     }
 }

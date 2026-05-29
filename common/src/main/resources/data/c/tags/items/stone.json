@@ -1,0 +1,31 @@
+{
+  "values": [
+    "geostrata:andesite",
+    "geostrata:basalt",
+    "geostrata:diorite",
+    "geostrata:granite",
+    "geostrata:rhyolite",
+    "geostrata:pegmatite",
+    "geostrata:diabase",
+    "geostrata:gabbro",
+    "geostrata:peridotite",
+    "geostrata:basaltic_glass",
+    "geostrata:scoria",
+    "geostrata:tuff",
+    "geostrata:slate",
+    "geostrata:schist",
+    "geostrata:gneiss",
+    "geostrata:phyllite",
+    "geostrata:amphibolite",
+    "geostrata:hornfels",
+    "geostrata:quartzite",
+    "geostrata:novaculite",
+    "geostrata:shale",
+    "geostrata:conglomerate",
+    "geostrata:dolomite",
+    "geostrata:limestone",
+    "geostrata:marble",
+    "geostrata:siltstone",
+    "geostrata:rock_salt"
+  ]
+}

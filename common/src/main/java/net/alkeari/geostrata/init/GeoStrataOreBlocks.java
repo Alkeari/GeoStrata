@@ -42,12 +42,12 @@ public final class GeoStrataOreBlocks {
                 String blockName = stone.name() + "_" + ore.name() + "_ore";
                 RegistrySupplier<Block> sup = BLOCKS.register(blockName, () ->
                     new DropExperienceBlock(
+                        UniformInt.of(minXp, maxXp),
                         BlockBehaviour.Properties.of()
                             .mapColor(MapColor.STONE)
                             .requiresCorrectToolForDrops()
                             .strength(hardness, resistance)
-                            .sound(SoundType.STONE),
-                        UniformInt.of(minXp, maxXp)
+                            .sound(SoundType.STONE)
                     )
                 );
                 byStone.put(stone.name(), sup);
@@ -56,12 +56,12 @@ public final class GeoStrataOreBlocks {
                 String dsBlockName = "deepslate_" + stone.name() + "_" + ore.name() + "_ore";
                 RegistrySupplier<Block> dsSup = BLOCKS.register(dsBlockName, () ->
                     new DropExperienceBlock(
+                        UniformInt.of(minXp, maxXp),
                         BlockBehaviour.Properties.of()
                             .mapColor(MapColor.DEEPSLATE)
                             .requiresCorrectToolForDrops()
                             .strength(hardness, resistance)
-                            .sound(SoundType.DEEPSLATE),
-                        UniformInt.of(minXp, maxXp)
+                            .sound(SoundType.DEEPSLATE)
                     )
                 );
                 byStone.put("deepslate_" + stone.name(), dsSup);

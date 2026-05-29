@@ -26,7 +26,7 @@ public class GeoStrataFabric implements ModInitializer {
         "ore_tuff",
         // vanilla ores
         "ore_coal_lower", "ore_coal_upper",
-        "ore_iron", "ore_iron_middle", "ore_iron_small",
+        "ore_iron_upper", "ore_iron_middle", "ore_iron_small",
         "ore_copper", "ore_copper_large",
         "ore_gold", "ore_gold_lower", "ore_gold_extra",
         "ore_redstone", "ore_redstone_lower",
@@ -44,44 +44,44 @@ public class GeoStrataFabric implements ModInitializer {
     }
 
     private static void removeVanillaStoneOres() {
-        BiomeModifications.create(new ResourceLocation(GeoStrata.MOD_ID, "remove_vanilla_stone_ores"))
+        BiomeModifications.create(ResourceLocation.fromNamespaceAndPath(GeoStrata.MOD_ID, "remove_vanilla_stone_ores"))
             .add(ModificationPhase.REMOVALS, BiomeSelectors.foundInOverworld(), context -> {
                 for (String feature : FEATURES_TO_REMOVE) {
                     context.getGenerationSettings().removeFeature(
                         GenerationStep.Decoration.UNDERGROUND_ORES,
                         ResourceKey.create(Registries.PLACED_FEATURE,
-                            new ResourceLocation("minecraft", feature))
+                            ResourceLocation.withDefaultNamespace(feature))
                     );
                 }
             });
     }
 
     private static void addGeoStrataStones() {
-        BiomeModifications.create(new ResourceLocation(GeoStrata.MOD_ID, "add_geostrata_stones"))
+        BiomeModifications.create(ResourceLocation.fromNamespaceAndPath(GeoStrata.MOD_ID, "add_geostrata_stones"))
             .add(ModificationPhase.ADDITIONS, BiomeSelectors.foundInOverworld(), context -> {
                 for (StoneType stone : StoneTypes.ALL) {
                     context.getGenerationSettings().addFeature(
                         GenerationStep.Decoration.UNDERGROUND_ORES,
                         ResourceKey.create(Registries.PLACED_FEATURE,
-                            new ResourceLocation(GeoStrata.MOD_ID, stone.name() + "_stone"))
+                            ResourceLocation.fromNamespaceAndPath(GeoStrata.MOD_ID, stone.name() + "_stone"))
                     );
                     context.getGenerationSettings().addFeature(
                         GenerationStep.Decoration.UNDERGROUND_ORES,
                         ResourceKey.create(Registries.PLACED_FEATURE,
-                            new ResourceLocation(GeoStrata.MOD_ID, "deepslate_" + stone.name() + "_stone"))
+                            ResourceLocation.fromNamespaceAndPath(GeoStrata.MOD_ID, "deepslate_" + stone.name() + "_stone"))
                     );
                 }
             });
     }
 
     private static void addGeoStrataOres() {
-        BiomeModifications.create(new ResourceLocation(GeoStrata.MOD_ID, "add_geostrata_ores"))
+        BiomeModifications.create(ResourceLocation.fromNamespaceAndPath(GeoStrata.MOD_ID, "add_geostrata_ores"))
             .add(ModificationPhase.ADDITIONS, BiomeSelectors.foundInOverworld(), context -> {
                 for (OreType ore : OreTypes.ALL) {
                     context.getGenerationSettings().addFeature(
                         GenerationStep.Decoration.UNDERGROUND_ORES,
                         ResourceKey.create(Registries.PLACED_FEATURE,
-                            new ResourceLocation(GeoStrata.MOD_ID, ore.name() + "_ore"))
+                            ResourceLocation.fromNamespaceAndPath(GeoStrata.MOD_ID, ore.name() + "_ore"))
                     );
                 }
             });
