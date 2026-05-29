@@ -23,9 +23,9 @@ import java.util.concurrent.CompletableFuture;
 public class GeoStrataTagsProvider extends BlockTagsProvider {
 
     private static final TagKey<Block> FORGE_COBBLESTONE =
-        BlockTags.create(new ResourceLocation("forge", "cobblestone"));
+        BlockTags.create(new ResourceLocation("forge:cobblestone"));
     private static final TagKey<Block> FORGE_STONE =
-        BlockTags.create(new ResourceLocation("forge", "stone"));
+        BlockTags.create(new ResourceLocation("forge:stone"));
 
     public GeoStrataTagsProvider(PackOutput output,
             CompletableFuture<HolderLookup.Provider> lookup, ExistingFileHelper efh) {

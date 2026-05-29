@@ -26,9 +26,9 @@ public class GeoStrataItemTagsProvider extends ItemTagsProvider {
     }
 
     private static final TagKey<Item> FORGE_COBBLESTONE =
-        ItemTags.create(new ResourceLocation("forge", "cobblestone"));
+        ItemTags.create(new ResourceLocation("forge:cobblestone"));
     private static final TagKey<Item> FORGE_STONE =
-        ItemTags.create(new ResourceLocation("forge", "stone"));
+        ItemTags.create(new ResourceLocation("forge:stone"));
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
