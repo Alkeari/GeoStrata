@@ -26,9 +26,9 @@ public class GeoStrataItemTagsProvider extends ItemTagsProvider {
     }
 
     private static final TagKey<Item> NEOFORGE_COBBLESTONE =
-        ItemTags.create(new ResourceLocation("neoforge", "cobblestone"));
+        ItemTags.create(ResourceLocation.fromNamespaceAndPath("neoforge", "cobblestone"));
     private static final TagKey<Item> NEOFORGE_STONE =
-        ItemTags.create(new ResourceLocation("neoforge", "stone"));
+        ItemTags.create(ResourceLocation.fromNamespaceAndPath("neoforge", "stone"));
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
