@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:polished_limestone",
+  "result": {
+    "id": "geostrata:limestone_bricks_wall"
+  }
+}

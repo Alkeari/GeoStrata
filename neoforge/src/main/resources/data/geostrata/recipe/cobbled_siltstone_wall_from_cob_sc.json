@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:cobbled_siltstone",
+  "result": {
+    "id": "geostrata:cobbled_siltstone_wall"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:dolomite_bricks",
+  "result": {
+    "id": "geostrata:dolomite_bricks_slab",
+    "count": 2
+  }
+}

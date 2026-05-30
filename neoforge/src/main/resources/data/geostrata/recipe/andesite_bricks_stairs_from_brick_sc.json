@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:andesite_bricks",
+  "result": {
+    "id": "geostrata:andesite_bricks_stairs"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:polished_gneiss",
+  "result": {
+    "id": "geostrata:gneiss_bricks"
+  }
+}

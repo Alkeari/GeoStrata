@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:diorite_bricks",
+  "result": {
+    "id": "geostrata:diorite_bricks_stairs"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:amphibolite_bricks",
+  "result": {
+    "id": "geostrata:amphibolite_bricks_stairs"
+  }
+}

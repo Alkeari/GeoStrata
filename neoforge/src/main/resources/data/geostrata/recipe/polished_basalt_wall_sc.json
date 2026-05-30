@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:basalt",
+  "result": {
+    "id": "geostrata:polished_basalt_wall"
+  }
+}

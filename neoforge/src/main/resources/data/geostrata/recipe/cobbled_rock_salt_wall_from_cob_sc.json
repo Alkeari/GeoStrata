@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:cobbled_rock_salt",
+  "result": {
+    "id": "geostrata:cobbled_rock_salt_wall"
+  }
+}

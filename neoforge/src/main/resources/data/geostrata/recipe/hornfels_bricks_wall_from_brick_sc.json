@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:hornfels_bricks",
+  "result": {
+    "id": "geostrata:hornfels_bricks_wall"
+  }
+}

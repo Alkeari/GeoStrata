@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:rock_salt",
+  "result": {
+    "id": "geostrata:polished_rock_salt_slab",
+    "count": 2
+  }
+}

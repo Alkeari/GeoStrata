@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:cobbled_gabbro",
+  "result": {
+    "id": "geostrata:cobbled_gabbro_slab",
+    "count": 2
+  }
+}

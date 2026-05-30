@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:pegmatite_bricks",
+  "result": {
+    "id": "geostrata:pegmatite_bricks_wall"
+  }
+}

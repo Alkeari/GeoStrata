@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:polished_phyllite",
+  "result": {
+    "id": "geostrata:polished_phyllite_slab",
+    "count": 2
+  }
+}

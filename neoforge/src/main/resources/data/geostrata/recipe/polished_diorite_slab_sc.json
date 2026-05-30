@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:diorite",
+  "result": {
+    "id": "geostrata:polished_diorite_slab",
+    "count": 2
+  }
+}

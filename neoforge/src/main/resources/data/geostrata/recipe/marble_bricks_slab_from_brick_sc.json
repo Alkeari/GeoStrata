@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:marble_bricks",
+  "result": {
+    "id": "geostrata:marble_bricks_slab",
+    "count": 2
+  }
+}

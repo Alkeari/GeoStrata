@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:cobbled_gneiss",
+  "result": {
+    "id": "geostrata:cobbled_gneiss_wall"
+  }
+}

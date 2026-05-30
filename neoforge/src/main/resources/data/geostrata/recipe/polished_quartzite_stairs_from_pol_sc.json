@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:polished_quartzite",
+  "result": {
+    "id": "geostrata:polished_quartzite_stairs"
+  }
+}

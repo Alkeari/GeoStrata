@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:phyllite",
+  "result": {
+    "id": "geostrata:polished_phyllite_stairs"
+  }
+}

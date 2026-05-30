@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:polished_diabase",
+  "result": {
+    "id": "geostrata:polished_diabase_wall"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:rhyolite_bricks",
+  "result": {
+    "id": "geostrata:rhyolite_bricks_slab",
+    "count": 2
+  }
+}

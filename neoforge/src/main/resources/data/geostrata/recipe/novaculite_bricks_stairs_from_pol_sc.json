@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:polished_novaculite",
+  "result": {
+    "id": "geostrata:novaculite_bricks_stairs"
+  }
+}

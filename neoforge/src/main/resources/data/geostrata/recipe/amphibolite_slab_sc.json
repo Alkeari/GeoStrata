@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:amphibolite",
+  "result": {
+    "id": "geostrata:amphibolite_slab",
+    "count": 2
+  }
+}

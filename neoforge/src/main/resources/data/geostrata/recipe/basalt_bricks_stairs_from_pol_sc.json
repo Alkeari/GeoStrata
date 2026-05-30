@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:polished_basalt",
+  "result": {
+    "id": "geostrata:basalt_bricks_stairs"
+  }
+}

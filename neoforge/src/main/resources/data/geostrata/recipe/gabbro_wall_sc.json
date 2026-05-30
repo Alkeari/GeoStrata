@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:gabbro",
+  "result": {
+    "id": "geostrata:gabbro_wall"
+  }
+}

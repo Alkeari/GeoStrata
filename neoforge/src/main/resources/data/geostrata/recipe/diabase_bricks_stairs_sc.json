@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:diabase",
+  "result": {
+    "id": "geostrata:diabase_bricks_stairs"
+  }
+}

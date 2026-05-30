@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:cobbled_andesite",
+  "result": {
+    "id": "geostrata:cobbled_andesite_stairs"
+  }
+}

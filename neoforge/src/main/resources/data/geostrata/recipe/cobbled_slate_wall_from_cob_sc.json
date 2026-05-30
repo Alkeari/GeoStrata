@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:cobbled_slate",
+  "result": {
+    "id": "geostrata:cobbled_slate_wall"
+  }
+}

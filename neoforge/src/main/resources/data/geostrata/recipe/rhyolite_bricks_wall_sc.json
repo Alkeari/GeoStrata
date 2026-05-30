@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:rhyolite",
+  "result": {
+    "id": "geostrata:rhyolite_bricks_wall"
+  }
+}

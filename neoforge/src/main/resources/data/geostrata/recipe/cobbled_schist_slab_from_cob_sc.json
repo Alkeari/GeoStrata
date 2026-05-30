@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:cobbled_schist",
+  "result": {
+    "id": "geostrata:cobbled_schist_slab",
+    "count": 2
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:andesite",
+  "result": {
+    "id": "geostrata:andesite_bricks_slab",
+    "count": 2
+  }
+}

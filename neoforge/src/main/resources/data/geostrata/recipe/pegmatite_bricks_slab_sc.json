@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:pegmatite",
+  "result": {
+    "id": "geostrata:pegmatite_bricks_slab",
+    "count": 2
+  }
+}

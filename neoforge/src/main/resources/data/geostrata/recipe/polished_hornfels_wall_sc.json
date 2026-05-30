@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:hornfels",
+  "result": {
+    "id": "geostrata:polished_hornfels_wall"
+  }
+}

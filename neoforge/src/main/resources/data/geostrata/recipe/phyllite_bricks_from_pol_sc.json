@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:polished_phyllite",
+  "result": {
+    "id": "geostrata:phyllite_bricks"
+  }
+}

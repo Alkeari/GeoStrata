@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:cobbled_tuff",
+  "result": {
+    "id": "geostrata:cobbled_tuff_stairs"
+  }
+}

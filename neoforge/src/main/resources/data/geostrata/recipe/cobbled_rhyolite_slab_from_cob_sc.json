@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:cobbled_rhyolite",
+  "result": {
+    "id": "geostrata:cobbled_rhyolite_slab",
+    "count": 2
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:novaculite",
+  "result": {
+    "id": "geostrata:novaculite_bricks_slab",
+    "count": 2
+  }
+}

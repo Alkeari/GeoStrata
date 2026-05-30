@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:andesite",
+  "result": {
+    "id": "geostrata:polished_andesite_wall"
+  }
+}

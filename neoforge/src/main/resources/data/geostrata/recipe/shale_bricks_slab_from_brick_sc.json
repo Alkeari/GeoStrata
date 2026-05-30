@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:shale_bricks",
+  "result": {
+    "id": "geostrata:shale_bricks_slab",
+    "count": 2
+  }
+}

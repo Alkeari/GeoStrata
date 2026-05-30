@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:polished_novaculite",
+  "result": {
+    "id": "geostrata:polished_novaculite_slab",
+    "count": 2
+  }
+}

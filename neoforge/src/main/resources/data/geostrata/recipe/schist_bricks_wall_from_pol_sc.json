@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "geostrata:polished_schist",
+  "result": {
+    "id": "geostrata:schist_bricks_wall"
+  }
+}
