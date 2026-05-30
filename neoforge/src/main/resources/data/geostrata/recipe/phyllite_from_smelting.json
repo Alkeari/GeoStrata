@@ -3,7 +3,9 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": "geostrata:cobbled_phyllite",
+  "ingredient": {
+    "item": "geostrata:cobbled_phyllite"
+  },
   "result": {
     "id": "geostrata:phyllite"
   }

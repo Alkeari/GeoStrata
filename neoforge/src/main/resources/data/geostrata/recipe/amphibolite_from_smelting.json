@@ -3,7 +3,9 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": "geostrata:cobbled_amphibolite",
+  "ingredient": {
+    "item": "geostrata:cobbled_amphibolite"
+  },
   "result": {
     "id": "geostrata:amphibolite"
   }

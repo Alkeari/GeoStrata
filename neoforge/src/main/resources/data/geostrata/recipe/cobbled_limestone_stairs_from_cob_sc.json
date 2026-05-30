@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:cobbled_limestone",
+  "ingredient": {
+    "item": "geostrata:cobbled_limestone"
+  },
   "result": {
     "id": "geostrata:cobbled_limestone_stairs"
   }

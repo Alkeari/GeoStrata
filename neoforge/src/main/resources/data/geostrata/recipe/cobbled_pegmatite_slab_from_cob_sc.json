@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:cobbled_pegmatite",
+  "ingredient": {
+    "item": "geostrata:cobbled_pegmatite"
+  },
   "result": {
     "id": "geostrata:cobbled_pegmatite_slab",
     "count": 2

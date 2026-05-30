@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:gneiss",
+  "ingredient": {
+    "item": "geostrata:gneiss"
+  },
   "result": {
     "id": "geostrata:gneiss_bricks_slab",
     "count": 2

@@ -3,7 +3,9 @@
   "category": "blocks",
   "cookingtime": 100,
   "experience": 0.1,
-  "ingredient": "geostrata:cobbled_gabbro",
+  "ingredient": {
+    "item": "geostrata:cobbled_gabbro"
+  },
   "result": {
     "id": "geostrata:gabbro"
   }

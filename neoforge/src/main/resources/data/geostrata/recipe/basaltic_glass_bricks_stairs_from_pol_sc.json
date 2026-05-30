@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:polished_basaltic_glass",
+  "ingredient": {
+    "item": "geostrata:polished_basaltic_glass"
+  },
   "result": {
     "id": "geostrata:basaltic_glass_bricks_stairs"
   }

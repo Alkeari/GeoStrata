@@ -3,7 +3,9 @@
   "category": "blocks",
   "cookingtime": 100,
   "experience": 0.1,
-  "ingredient": "geostrata:cobbled_marble",
+  "ingredient": {
+    "item": "geostrata:cobbled_marble"
+  },
   "result": {
     "id": "geostrata:marble"
   }

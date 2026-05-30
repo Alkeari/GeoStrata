@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:hornfels_bricks",
+  "ingredient": {
+    "item": "geostrata:hornfels_bricks"
+  },
   "result": {
     "id": "geostrata:hornfels_bricks_slab",
     "count": 2

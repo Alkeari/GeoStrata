@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:conglomerate_bricks",
+  "ingredient": {
+    "item": "geostrata:conglomerate_bricks"
+  },
   "result": {
     "id": "geostrata:conglomerate_bricks_wall"
   }

@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:polished_scoria",
+  "ingredient": {
+    "item": "geostrata:polished_scoria"
+  },
   "result": {
     "id": "geostrata:scoria_bricks_slab",
     "count": 2

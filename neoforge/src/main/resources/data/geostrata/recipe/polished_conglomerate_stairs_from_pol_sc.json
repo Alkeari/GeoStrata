@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:polished_conglomerate",
+  "ingredient": {
+    "item": "geostrata:polished_conglomerate"
+  },
   "result": {
     "id": "geostrata:polished_conglomerate_stairs"
   }

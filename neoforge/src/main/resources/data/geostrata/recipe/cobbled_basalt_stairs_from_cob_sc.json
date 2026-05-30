@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:cobbled_basalt",
+  "ingredient": {
+    "item": "geostrata:cobbled_basalt"
+  },
   "result": {
     "id": "geostrata:cobbled_basalt_stairs"
   }

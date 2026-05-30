@@ -3,7 +3,9 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": "geostrata:cobbled_novaculite",
+  "ingredient": {
+    "item": "geostrata:cobbled_novaculite"
+  },
   "result": {
     "id": "geostrata:novaculite"
   }

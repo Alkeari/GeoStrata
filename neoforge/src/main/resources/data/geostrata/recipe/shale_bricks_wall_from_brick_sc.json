@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:shale_bricks",
+  "ingredient": {
+    "item": "geostrata:shale_bricks"
+  },
   "result": {
     "id": "geostrata:shale_bricks_wall"
   }

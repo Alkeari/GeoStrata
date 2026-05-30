@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:schist",
+  "ingredient": {
+    "item": "geostrata:schist"
+  },
   "result": {
     "id": "geostrata:schist_slab",
     "count": 2

@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:rock_salt",
+  "ingredient": {
+    "item": "geostrata:rock_salt"
+  },
   "result": {
     "id": "geostrata:polished_rock_salt_stairs"
   }

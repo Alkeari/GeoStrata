@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:cobbled_peridotite",
+  "ingredient": {
+    "item": "geostrata:cobbled_peridotite"
+  },
   "result": {
     "id": "geostrata:cobbled_peridotite_wall"
   }

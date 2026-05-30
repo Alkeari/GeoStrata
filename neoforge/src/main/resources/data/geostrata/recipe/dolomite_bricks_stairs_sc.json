@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:dolomite",
+  "ingredient": {
+    "item": "geostrata:dolomite"
+  },
   "result": {
     "id": "geostrata:dolomite_bricks_stairs"
   }

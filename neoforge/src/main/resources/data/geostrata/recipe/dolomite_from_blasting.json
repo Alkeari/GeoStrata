@@ -3,7 +3,9 @@
   "category": "blocks",
   "cookingtime": 100,
   "experience": 0.1,
-  "ingredient": "geostrata:cobbled_dolomite",
+  "ingredient": {
+    "item": "geostrata:cobbled_dolomite"
+  },
   "result": {
     "id": "geostrata:dolomite"
   }

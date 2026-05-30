@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:cobbled_amphibolite",
+  "ingredient": {
+    "item": "geostrata:cobbled_amphibolite"
+  },
   "result": {
     "id": "geostrata:cobbled_amphibolite_wall"
   }

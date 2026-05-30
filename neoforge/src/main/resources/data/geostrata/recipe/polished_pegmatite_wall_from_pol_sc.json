@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:polished_pegmatite",
+  "ingredient": {
+    "item": "geostrata:polished_pegmatite"
+  },
   "result": {
     "id": "geostrata:polished_pegmatite_wall"
   }

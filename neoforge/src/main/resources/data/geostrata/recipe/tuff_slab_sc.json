@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:tuff",
+  "ingredient": {
+    "item": "geostrata:tuff"
+  },
   "result": {
     "id": "geostrata:tuff_slab",
     "count": 2

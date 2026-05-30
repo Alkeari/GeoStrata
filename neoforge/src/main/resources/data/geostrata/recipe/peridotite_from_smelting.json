@@ -3,7 +3,9 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": "geostrata:cobbled_peridotite",
+  "ingredient": {
+    "item": "geostrata:cobbled_peridotite"
+  },
   "result": {
     "id": "geostrata:peridotite"
   }

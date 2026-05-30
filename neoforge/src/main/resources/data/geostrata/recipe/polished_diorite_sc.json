@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:diorite",
+  "ingredient": {
+    "item": "geostrata:diorite"
+  },
   "result": {
     "id": "geostrata:polished_diorite"
   }

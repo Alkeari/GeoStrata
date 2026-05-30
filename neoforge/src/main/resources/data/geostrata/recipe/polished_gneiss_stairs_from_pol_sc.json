@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:polished_gneiss",
+  "ingredient": {
+    "item": "geostrata:polished_gneiss"
+  },
   "result": {
     "id": "geostrata:polished_gneiss_stairs"
   }

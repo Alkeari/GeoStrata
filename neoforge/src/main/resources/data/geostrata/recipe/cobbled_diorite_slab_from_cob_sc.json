@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:cobbled_diorite",
+  "ingredient": {
+    "item": "geostrata:cobbled_diorite"
+  },
   "result": {
     "id": "geostrata:cobbled_diorite_slab",
     "count": 2

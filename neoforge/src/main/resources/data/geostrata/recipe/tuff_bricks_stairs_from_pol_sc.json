@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:polished_tuff",
+  "ingredient": {
+    "item": "geostrata:polished_tuff"
+  },
   "result": {
     "id": "geostrata:tuff_bricks_stairs"
   }

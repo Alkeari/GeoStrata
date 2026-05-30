@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:slate",
+  "ingredient": {
+    "item": "geostrata:slate"
+  },
   "result": {
     "id": "geostrata:slate_slab",
     "count": 2

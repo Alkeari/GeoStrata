@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:quartzite",
+  "ingredient": {
+    "item": "geostrata:quartzite"
+  },
   "result": {
     "id": "geostrata:polished_quartzite_slab",
     "count": 2

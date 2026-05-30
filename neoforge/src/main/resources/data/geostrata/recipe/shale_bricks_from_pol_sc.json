@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:polished_shale",
+  "ingredient": {
+    "item": "geostrata:polished_shale"
+  },
   "result": {
     "id": "geostrata:shale_bricks"
   }

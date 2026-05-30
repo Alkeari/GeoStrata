@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:novaculite",
+  "ingredient": {
+    "item": "geostrata:novaculite"
+  },
   "result": {
     "id": "geostrata:novaculite_wall"
   }

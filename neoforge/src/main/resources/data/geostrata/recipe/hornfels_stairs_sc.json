@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:hornfels",
+  "ingredient": {
+    "item": "geostrata:hornfels"
+  },
   "result": {
     "id": "geostrata:hornfels_stairs"
   }

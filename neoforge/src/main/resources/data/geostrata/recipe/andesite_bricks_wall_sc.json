@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:andesite",
+  "ingredient": {
+    "item": "geostrata:andesite"
+  },
   "result": {
     "id": "geostrata:andesite_bricks_wall"
   }

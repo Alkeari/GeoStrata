@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:cobbled_quartzite",
+  "ingredient": {
+    "item": "geostrata:cobbled_quartzite"
+  },
   "result": {
     "id": "geostrata:cobbled_quartzite_wall"
   }

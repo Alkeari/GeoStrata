@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:cobbled_hornfels",
+  "ingredient": {
+    "item": "geostrata:cobbled_hornfels"
+  },
   "result": {
     "id": "geostrata:cobbled_hornfels_wall"
   }

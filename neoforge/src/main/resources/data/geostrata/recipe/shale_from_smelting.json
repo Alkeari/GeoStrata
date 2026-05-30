@@ -3,7 +3,9 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": "geostrata:cobbled_shale",
+  "ingredient": {
+    "item": "geostrata:cobbled_shale"
+  },
   "result": {
     "id": "geostrata:shale"
   }

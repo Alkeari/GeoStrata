@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:cobbled_granite",
+  "ingredient": {
+    "item": "geostrata:cobbled_granite"
+  },
   "result": {
     "id": "geostrata:cobbled_granite_slab",
     "count": 2

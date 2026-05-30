@@ -3,7 +3,9 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": "geostrata:cobbled_basalt",
+  "ingredient": {
+    "item": "geostrata:cobbled_basalt"
+  },
   "result": {
     "id": "geostrata:basalt"
   }

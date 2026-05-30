@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:peridotite_bricks",
+  "ingredient": {
+    "item": "geostrata:peridotite_bricks"
+  },
   "result": {
     "id": "geostrata:peridotite_bricks_stairs"
   }

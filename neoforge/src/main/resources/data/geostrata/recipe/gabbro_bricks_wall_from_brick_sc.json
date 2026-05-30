@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:gabbro_bricks",
+  "ingredient": {
+    "item": "geostrata:gabbro_bricks"
+  },
   "result": {
     "id": "geostrata:gabbro_bricks_wall"
   }

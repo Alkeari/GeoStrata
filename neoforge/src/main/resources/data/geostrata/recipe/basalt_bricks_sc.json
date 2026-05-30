@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:basalt",
+  "ingredient": {
+    "item": "geostrata:basalt"
+  },
   "result": {
     "id": "geostrata:basalt_bricks"
   }

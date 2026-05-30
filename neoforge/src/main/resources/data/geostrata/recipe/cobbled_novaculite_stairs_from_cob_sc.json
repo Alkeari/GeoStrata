@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:cobbled_novaculite",
+  "ingredient": {
+    "item": "geostrata:cobbled_novaculite"
+  },
   "result": {
     "id": "geostrata:cobbled_novaculite_stairs"
   }

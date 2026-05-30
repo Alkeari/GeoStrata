@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:polished_siltstone",
+  "ingredient": {
+    "item": "geostrata:polished_siltstone"
+  },
   "result": {
     "id": "geostrata:polished_siltstone_stairs"
   }

@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:phyllite",
+  "ingredient": {
+    "item": "geostrata:phyllite"
+  },
   "result": {
     "id": "geostrata:phyllite_stairs"
   }

@@ -3,7 +3,9 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": "geostrata:cobbled_diorite",
+  "ingredient": {
+    "item": "geostrata:cobbled_diorite"
+  },
   "result": {
     "id": "geostrata:diorite"
   }

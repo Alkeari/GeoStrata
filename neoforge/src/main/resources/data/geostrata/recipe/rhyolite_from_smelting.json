@@ -3,7 +3,9 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": "geostrata:cobbled_rhyolite",
+  "ingredient": {
+    "item": "geostrata:cobbled_rhyolite"
+  },
   "result": {
     "id": "geostrata:rhyolite"
   }

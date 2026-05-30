@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:diabase",
+  "ingredient": {
+    "item": "geostrata:diabase"
+  },
   "result": {
     "id": "geostrata:diabase_slab",
     "count": 2

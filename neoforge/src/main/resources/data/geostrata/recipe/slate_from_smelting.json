@@ -3,7 +3,9 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": "geostrata:cobbled_slate",
+  "ingredient": {
+    "item": "geostrata:cobbled_slate"
+  },
   "result": {
     "id": "geostrata:slate"
   }

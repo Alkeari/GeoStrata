@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:granite",
+  "ingredient": {
+    "item": "geostrata:granite"
+  },
   "result": {
     "id": "geostrata:polished_granite"
   }

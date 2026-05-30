@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:cobbled_diabase",
+  "ingredient": {
+    "item": "geostrata:cobbled_diabase"
+  },
   "result": {
     "id": "geostrata:cobbled_diabase_wall"
   }

@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:polished_quartzite",
+  "ingredient": {
+    "item": "geostrata:polished_quartzite"
+  },
   "result": {
     "id": "geostrata:polished_quartzite_wall"
   }

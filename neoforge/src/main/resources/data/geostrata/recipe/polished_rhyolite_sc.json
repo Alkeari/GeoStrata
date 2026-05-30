@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:rhyolite",
+  "ingredient": {
+    "item": "geostrata:rhyolite"
+  },
   "result": {
     "id": "geostrata:polished_rhyolite"
   }

@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:polished_basalt",
+  "ingredient": {
+    "item": "geostrata:polished_basalt"
+  },
   "result": {
     "id": "geostrata:polished_basalt_slab",
     "count": 2

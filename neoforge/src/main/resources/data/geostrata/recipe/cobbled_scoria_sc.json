@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:scoria",
+  "ingredient": {
+    "item": "geostrata:scoria"
+  },
   "result": {
     "id": "geostrata:cobbled_scoria"
   }

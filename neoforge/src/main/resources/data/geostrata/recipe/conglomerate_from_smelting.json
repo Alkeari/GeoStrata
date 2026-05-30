@@ -3,7 +3,9 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": "geostrata:cobbled_conglomerate",
+  "ingredient": {
+    "item": "geostrata:cobbled_conglomerate"
+  },
   "result": {
     "id": "geostrata:conglomerate"
   }

@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "geostrata:scoria_bricks",
+  "ingredient": {
+    "item": "geostrata:scoria_bricks"
+  },
   "result": {
     "id": "geostrata:scoria_bricks_wall"
   }
