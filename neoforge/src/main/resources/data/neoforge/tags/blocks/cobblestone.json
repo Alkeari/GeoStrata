@@ -1,0 +1,31 @@
+{
+  "values": [
+    "geostrata:cobbled_andesite",
+    "geostrata:cobbled_basalt",
+    "geostrata:cobbled_diorite",
+    "geostrata:cobbled_granite",
+    "geostrata:cobbled_rhyolite",
+    "geostrata:cobbled_pegmatite",
+    "geostrata:cobbled_diabase",
+    "geostrata:cobbled_gabbro",
+    "geostrata:cobbled_peridotite",
+    "geostrata:cobbled_basaltic_glass",
+    "geostrata:cobbled_scoria",
+    "geostrata:cobbled_tuff",
+    "geostrata:cobbled_slate",
+    "geostrata:cobbled_schist",
+    "geostrata:cobbled_gneiss",
+    "geostrata:cobbled_phyllite",
+    "geostrata:cobbled_amphibolite",
+    "geostrata:cobbled_hornfels",
+    "geostrata:cobbled_quartzite",
+    "geostrata:cobbled_novaculite",
+    "geostrata:cobbled_shale",
+    "geostrata:cobbled_conglomerate",
+    "geostrata:cobbled_dolomite",
+    "geostrata:cobbled_limestone",
+    "geostrata:cobbled_marble",
+    "geostrata:cobbled_siltstone",
+    "geostrata:cobbled_rock_salt"
+  ]
+}

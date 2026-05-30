@@ -21,22 +21,9 @@ sourceSets {
     }
 }
 
-loom {
-    runs {
-        data {
-            serverData()
-            programArgs "--existing", project.file("src/main/resources").absolutePath,
-                        "--existing", rootProject.project(":common").file("src/main/resources").absolutePath
-        }
-    }
-}
-
 tasks.register('syncGeneratedToCommon', Copy) {
     from 'src/generated/resources'
     into rootProject.project(':common').file('src/generated/resources')
-}
-afterEvaluate {
-    tasks.named('runData').configure { finalizedBy('syncGeneratedToCommon') }
 }
 
 configurations {
