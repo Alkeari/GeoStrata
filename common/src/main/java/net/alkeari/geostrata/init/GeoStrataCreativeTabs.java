@@ -1,6 +1,5 @@
 package net.alkeari.geostrata.init;
 
-import dev.architectury.registry.CreativeTabRegistry;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.alkeari.geostrata.GeoStrata;
@@ -25,42 +24,39 @@ public final class GeoStrataCreativeTabs {
 
     public static final RegistrySupplier<CreativeModeTab> GEOSTRATA_TAB = CREATIVE_TABS.register(
         GeoStrata.MOD_ID,
-        () -> CreativeTabRegistry.create(
-            Component.translatable("itemGroup." + GeoStrata.MOD_ID + "." + GeoStrata.MOD_ID),
-            () -> new ItemStack(blockItem(GeoStrataBlocks.BASE.get("granite")))
-        )
+        () -> CreativeModeTab.builder()
+            .title(Component.translatable("itemGroup." + GeoStrata.MOD_ID + "." + GeoStrata.MOD_ID))
+            .icon(() -> new ItemStack(blockItem(GeoStrataBlocks.BASE.get("granite"))))
+            .displayItems((params, output) -> {
+                for (StoneType type : StoneTypes.ALL) {
+                    String n = type.name();
+                    output.accept(blockItem(GeoStrataBlocks.BASE.get(n)));
+                    output.accept(blockItem(GeoStrataBlocks.SLABS.get(n)));
+                    output.accept(blockItem(GeoStrataBlocks.STAIRS.get(n)));
+                    output.accept(blockItem(GeoStrataBlocks.WALLS.get(n)));
+                    output.accept(blockItem(GeoStrataBlocks.BRICKS.get(n)));
+                    output.accept(blockItem(GeoStrataBlocks.POLISHED.get(n)));
+                    output.accept(blockItem(GeoStrataBlocks.COBBLED.get(n)));
+                    output.accept(blockItem(GeoStrataBlocks.COBBLED_SLABS.get(n)));
+                    output.accept(blockItem(GeoStrataBlocks.COBBLED_STAIRS.get(n)));
+                    output.accept(blockItem(GeoStrataBlocks.COBBLED_WALLS.get(n)));
+                    for (OreType ore : OreTypes.ALL) {
+                        output.accept(blockItem(GeoStrataOreBlocks.ORE_BLOCKS.get(ore.name()).get(n)));
+                    }
+                }
+                for (StoneType type : StoneTypes.ALL) {
+                    String n = type.name();
+                    output.accept(blockItem(GeoStrataBlocks.DEEPSLATE.get(n)));
+                    for (OreType ore : OreTypes.ALL) {
+                        output.accept(blockItem(GeoStrataOreBlocks.ORE_BLOCKS.get(ore.name()).get("deepslate_" + n)));
+                    }
+                }
+            })
+            .build()
     );
 
     public static void init() {
         CREATIVE_TABS.register();
-
-        // RegistrySupplier extends DeferredSupplier — pass directly to modify()
-        CreativeTabRegistry.modify(GEOSTRATA_TAB, (params, output, hasPermissions) -> {
-            for (StoneType type : StoneTypes.ALL) {
-                String n = type.name();
-                output.accept(blockItem(GeoStrataBlocks.BASE.get(n)));
-                output.accept(blockItem(GeoStrataBlocks.SLABS.get(n)));
-                output.accept(blockItem(GeoStrataBlocks.STAIRS.get(n)));
-                output.accept(blockItem(GeoStrataBlocks.WALLS.get(n)));
-                output.accept(blockItem(GeoStrataBlocks.BRICKS.get(n)));
-                output.accept(blockItem(GeoStrataBlocks.POLISHED.get(n)));
-                output.accept(blockItem(GeoStrataBlocks.COBBLED.get(n)));
-                output.accept(blockItem(GeoStrataBlocks.COBBLED_SLABS.get(n)));
-                output.accept(blockItem(GeoStrataBlocks.COBBLED_STAIRS.get(n)));
-                output.accept(blockItem(GeoStrataBlocks.COBBLED_WALLS.get(n)));
-                for (OreType ore : OreTypes.ALL) {
-                    output.accept(blockItem(GeoStrataOreBlocks.ORE_BLOCKS.get(ore.name()).get(n)));
-                }
-            }
-            for (StoneType type : StoneTypes.ALL) {
-                String n = type.name();
-                output.accept(blockItem(GeoStrataBlocks.DEEPSLATE.get(n)));
-                for (OreType ore : OreTypes.ALL) {
-                    output.accept(blockItem(GeoStrataOreBlocks.ORE_BLOCKS.get(ore.name()).get("deepslate_" + n)));
-                }
-            }
-        });
-
     }
 
     private static Item blockItem(RegistrySupplier<Block> block) {
