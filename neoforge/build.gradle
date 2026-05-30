@@ -24,7 +24,7 @@ sourceSets {
 loom {
     runs {
         data {
-            clientData()
+            serverData()
             programArgs "--existing", project.file("src/main/resources").absolutePath,
                         "--existing", rootProject.project(":common").file("src/main/resources").absolutePath
         }
