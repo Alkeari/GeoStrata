@@ -11,7 +11,6 @@ import net.alkeari.geostrata.stone.StoneTypes;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
@@ -62,15 +61,6 @@ public final class GeoStrataCreativeTabs {
             }
         });
 
-        CreativeTabRegistry.modify(
-            CreativeTabRegistry.defer(CreativeModeTabs.NATURAL_BLOCKS),
-            (params, output, hasPermissions) -> {
-                for (StoneType type : StoneTypes.ALL) {
-                    output.accept(blockItem(GeoStrataBlocks.BASE.get(type.name())));
-                    output.accept(blockItem(GeoStrataBlocks.DEEPSLATE.get(type.name())));
-                }
-            }
-        );
     }
 
     private static Item blockItem(RegistrySupplier<Block> block) {
