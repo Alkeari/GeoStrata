@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "geostrata:cobbled_andesite",
     "geostrata:cobbled_basalt",

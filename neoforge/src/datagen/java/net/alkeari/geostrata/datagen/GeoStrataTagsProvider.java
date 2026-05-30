@@ -22,10 +22,10 @@ import java.util.concurrent.CompletableFuture;
 
 public class GeoStrataTagsProvider extends BlockTagsProvider {
 
-    private static final TagKey<Block> NEOFORGE_COBBLESTONE =
-        BlockTags.create(ResourceLocation.fromNamespaceAndPath("neoforge", "cobblestone"));
-    private static final TagKey<Block> NEOFORGE_STONE =
-        BlockTags.create(ResourceLocation.fromNamespaceAndPath("neoforge", "stone"));
+    private static final TagKey<Block> C_COBBLESTONES_NORMAL =
+        BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "cobblestones/normal"));
+    private static final TagKey<Block> C_STONES =
+        BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "stones"));
 
     public GeoStrataTagsProvider(PackOutput output,
             CompletableFuture<HolderLookup.Provider> lookup, ExistingFileHelper efh) {
@@ -39,12 +39,12 @@ public class GeoStrataTagsProvider extends BlockTagsProvider {
             .toArray(Block[]::new);
         tag(BlockTags.STONE_ORE_REPLACEABLES).add(baseBlocks);
         tag(BlockTags.BASE_STONE_OVERWORLD).add(baseBlocks);
-        tag(NEOFORGE_STONE).add(baseBlocks);
+        tag(C_STONES).add(baseBlocks);
 
         Block[] cobbledBlocks = StoneTypes.ALL.stream()
             .map(t -> GeoStrataBlocks.COBBLED.get(t.name()).get())
             .toArray(Block[]::new);
-        tag(NEOFORGE_COBBLESTONE).add(cobbledBlocks);
+        tag(C_COBBLESTONES_NORMAL).add(cobbledBlocks);
 
         Block[] deepslateBlocks = StoneTypes.ALL.stream()
             .map(t -> GeoStrataBlocks.DEEPSLATE.get(t.name()).get())

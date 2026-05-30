@@ -25,10 +25,10 @@ public class GeoStrataItemTagsProvider extends ItemTagsProvider {
         super(output, lookup, blockTags, GeoStrata.MOD_ID, efh);
     }
 
-    private static final TagKey<Item> NEOFORGE_COBBLESTONE =
-        ItemTags.create(ResourceLocation.fromNamespaceAndPath("neoforge", "cobblestone"));
-    private static final TagKey<Item> NEOFORGE_STONE =
-        ItemTags.create(ResourceLocation.fromNamespaceAndPath("neoforge", "stone"));
+    private static final TagKey<Item> C_COBBLESTONES_NORMAL =
+        ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "cobblestones/normal"));
+    private static final TagKey<Item> C_STONES =
+        ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "stones"));
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
@@ -37,11 +37,11 @@ public class GeoStrataItemTagsProvider extends ItemTagsProvider {
             .toArray(Item[]::new);
         tag(ItemTags.STONE_TOOL_MATERIALS).add(cobbledItems);
         tag(ItemTags.STONE_CRAFTING_MATERIALS).add(cobbledItems);
-        tag(NEOFORGE_COBBLESTONE).add(cobbledItems);
+        tag(C_COBBLESTONES_NORMAL).add(cobbledItems);
 
         Item[] baseItems = StoneTypes.ALL.stream()
             .map(t -> GeoStrataBlocks.BASE.get(t.name()).get().asItem())
             .toArray(Item[]::new);
-        tag(NEOFORGE_STONE).add(baseItems);
+        tag(C_STONES).add(baseItems);
     }
 }
